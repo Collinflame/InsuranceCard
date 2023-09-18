@@ -62,6 +62,12 @@ input, select {
   color: #714740;
   background: rgba(113, 71, 64, 0.25);
 }
+.label {
+  color: black
+}
 a {
   color: #00B7FF;
+}
+.title {
+  font: 20px Magneto;
 }

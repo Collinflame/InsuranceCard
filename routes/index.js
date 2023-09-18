@@ -13,6 +13,7 @@ router.post('/card', function(req, res){
     lastName: req.body.lastName,
     type: req.body.type,
     dateOfBirth: new Date(req.body.dateOfBirth),
+    start: new Date(req.body.start),
     addressLine1: req.body.addressLine1,
     addressLine2: req.body.addressLine2,
     city: req.body.city,
